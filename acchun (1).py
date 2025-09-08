@@ -68,8 +68,8 @@ def fetch_otp_acchubb():
     return []
 
 # Config me ye add karo
-DEV_LINK = os.getenv("DEV_LINK", "https://t.me/Vxxwo")
-CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/+acyLZ2Nq-W9jNWE1")
+DEV_LINK = os.getenv("DEV_LINK", "https://t.me/kxxow")
+CHANNEL_LINK = os.getenv("CHANNEL_LINK", "https://t.me/+wSedu9H23tgzMGRl")
 
 def send_telegram_message(msg):
     try:
@@ -118,7 +118,7 @@ def otp_monitor_acchubb():
     f"🌍 <b>Country:</b> <b>{otp_entry.get('country_name')}</b>\n\n"
     f"🔑 <b>OTP:</b> <blockquote>{html.escape(otp_code)}</blockquote>\n"
     "━━━━━━━━━━━━━━━━━━━━━━\n"
-    "⚡️ <i>Powered by @kanhaiyalaljoshi 🔱</i>\n"
+    "⚡️ <i>Powered by @kxxow 🔱</i>\n"
     "━━━━━━━━━━━━━━━━━━━━━━"
 )
 
@@ -141,7 +141,7 @@ def otp_monitor_acchubb():
     f"🌍 <b>Country:</b> <b>{otp_entry.get('country_name')}</b>\n\n"
     f"🔑 <b>OTP:</b> <blockquote>{html.escape(otp_code)}</blockquote>\n"
     "━━━━━━━━━━━━━━━━━━━━━━\n"
-    "⚡️ <i>Powered by @kanhaiyalaljoshi Bot 🔱 </i>\n"
+    "⚡️ <i>Powered by @kxxow Bot 🔱 </i>\n"
     "━━━━━━━━━━━━━━━━━━━━━━"
 )
 
@@ -163,7 +163,7 @@ def otp_monitor_acchubb():
     f"🌍 <b>Country:</b> <b>{otp_entry.get('country_name')}</b>\n\n"
     f"🔑 <b>OTP:</b> <blockquote>{html.escape(otp_code)}</blockquote>\n"
     "━━━━━━━━━━━━━━━━━━━━━━\n"
-    "⚡️ <i>Powered by @kanhaiyalaljoshi Bot ❤️</i>\n"
+    "⚡️ <i>Powered by @kxxow Bot ❤️</i>\n"
     "━━━━━━━━━━━━━━━━━━━━━━"
 )
                 send_telegram_message(msg)
@@ -299,12 +299,12 @@ async def send_number_message(query, data, country_id, carrier_id, changed=False
     msg = (
         ("🔄 <b>Number Changed!</b>\n\n" if changed else "✅ <b>Number Added Successfully!</b>\n\n") +
         f"📞 <b>Number:</b> <code>{data.get('did')}</code>\n"
-        f"<i>Powered by @kanhaiyalaljoshi ❤️</i>"
+        f"<i>Powered by @kxxow ❤️</i>"
     )
     keyboard = [
         [
-            InlineKeyboardButton("📩 View OTP", url="https://t.me/+ZzVljRrgUvMzNDc1"),
-            InlineKeyboardButton("📢 Main Channel", url="https://t.me/+acyLZ2Nq-W9jNWE1")
+            InlineKeyboardButton("📩 View OTP", url="https://t.me/+inw9q-HMbeQ4NWJl"),
+            InlineKeyboardButton("📢 Main Channel", url="https://t.me/+wSedu9H23tgzMGRl")
         ],
         [
             InlineKeyboardButton("🔄 Change Number", callback_data="change_number")
