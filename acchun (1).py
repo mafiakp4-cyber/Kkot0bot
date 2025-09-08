@@ -13,7 +13,7 @@ last_change_time = {}
 # ====== CONFIG ======
 import os
 
-BOT_TOKEN = "6503642958:AAGRkRVdzGozIiU6I7ns-qpIRekV80WAhcE"
+BOT_TOKEN = "8266592272:AAEDSQixZfME-okdpm_nBjXGB9Z_XbU8IrM"
 AUTH_TOKEN = os.getenv("AUTH_TOKEN", "deb0fb6f-e347-4b40-ab36-10d803c8eccc")
 GROUP_ID = int(os.getenv("GROUP_ID", -1003019708323))
 API_URL = "https://raazit.acchub.io/api/"
